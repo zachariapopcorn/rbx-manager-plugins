@@ -13,6 +13,7 @@ const command: CommandFile = {
     .setDescription("Testing plugin system"),
     commandData: {
         category: "General Group",
+        isEphemeral: false,
         hasCooldown: false,
         preformGeneralVerificationChecks: false
     }
